@@ -1,0 +1,6 @@
+
+<ul>
+    <li *ngFor="let product of products" (click)="onSelectProduct(product.id)">
+        {{product.name}}
+    </li>
+</ul>
